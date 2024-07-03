@@ -1,0 +1,63 @@
+.site{
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    background-color: oldlace;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.menu li{
+    margin: 0 10px;
+}
+.content{
+    padding-top: 40px;
+    margin: 20px 40px;
+}
+#head1, #head2{
+    font-size: 45px;
+    display: inline; 
+}
+#head2{
+    margin-left: 7px;
+    color:#05CC98;
+}
+#con{
+    padding: auto;
+    font-size: 20px;
+    /* float: left; */
+    width: 800px;
+}
+.content img{
+    margin-right: 35px;
+    margin-top: 40px;
+    float: right;
+    width: 220px;
+}
+.btn{
+    margin: auto 16%;
+    display: flex;
+    gap:40px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 15%;
+}
+#bt1{
+    background-color: #05CC98;
+}
+#bt2{
+    background-color: oldlace;
+}
